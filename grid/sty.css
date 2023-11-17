@@ -1,0 +1,13 @@
+.grig-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px 50px ; 
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.box{
+    background-color: rgb(21, 200, 140);
+   border-style: dotted;
+    text-align: center;
+    /* padding: 15px; */
+} 
+/* frຄືແບ່ງບ່ອກໃຫ້ເຕັມຫນ້າຈໍໍ */

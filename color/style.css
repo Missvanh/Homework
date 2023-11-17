@@ -1,0 +1,21 @@
+.title{
+    font-size: 20px;
+    color: rgb(209, 131, 29);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    margin: 20px;
+    text-align: center;
+}
+.message{
+    font-size: 20px;
+    color: aquamarine;
+    background-color: rgb(189, 10, 10);
+    margin: 20px;
+    text-align: start;
+}
+.letter{
+    font-size: 20px;
+    color: rgb(7, 21, 100) rgb(105, 4, 77) red;
+    background-color: rgb(22, 165, 122);
+    margin: 20px;
+    text-align: end;
+}

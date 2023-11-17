@@ -1,0 +1,15 @@
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+ }
+ .box{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,83,172,0.7681197478991597) 35%, rgba(0,212,255,1) 100%);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-style: double;
+    margin: 10px;
+}

@@ -1,0 +1,128 @@
+body {
+    background: url(./img/vvvv.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+img {
+    width: 12rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background:#ffe5b2;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-self: space-around;
+    align-items: center;
+    z-index: 5;
+}
+
+.logo img {
+    width: 4rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.logo span {
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(2, 2, 2);
+}
+
+.nav-link {
+    margin-right: 1rem;
+    padding: 8px 10px;
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.active {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    height: 100%;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-text h2 h1 {
+    font-size: 49px;
+    filter: drop-shadow(3px 3px 0 #fff);
+}
+
+.home-text p {
+    font-size: 15px;
+    color: rgb(37, 34, 34);
+    font-weight: 700;
+    filter: drop-shadow(2px 2px 0 #fff);
+    
+}
+
+.btn-color {
+    background: #fff;
+    color: #000000;
+    font-size: 19px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    transition: o, 3s;
+
+}
+
+.btn-color {
+    transition: 150ms;
+    margin-left: 0.5rem;
+
+}
+
+.btn-color:hover i {
+    transition: 150ms;
+    margin-left: 0.5rem;
+}
+
+.btn-color:hover {
+    transition: translateX(5px);
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+/* about */
+.about{
+    height: 100vh;
+    background:#D6CFC2;
+
+}
+section h1{
+    text-align: center;
+    font-size: 40px;
+}
+.content{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.about-text{
+    width: 30rem;
+}
+.box-btn{
+    margin-top: 2rem;
+}
+.about-img img{
+    width: 25rem;
+    border-bottom: 50%;
+    border: 5px solid ;
+}
